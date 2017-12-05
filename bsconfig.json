@@ -1,0 +1,15 @@
+{
+    "name" : "bs-body-parser",
+    "bs-dependencies": [
+        "bs-express",
+        "bs-batteries"
+    ],
+    "sources" : [
+        { "dir" : "src" },
+        {
+            "dir": "test",
+            "type": "dev"
+        }
+    ],
+    "bsc-flags": [ "-w -10", "-bs-super-errors" ]
+}

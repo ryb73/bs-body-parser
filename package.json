@@ -1,0 +1,28 @@
+{
+  "name": "bs-body-parser",
+  "version": "1.0.0",
+  "description": "BuckleScript bindings for body-parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && bsb -make-world",
+    "watch": "npm run clean && bsb -make-world -w",
+    "clean": "rm -rf lib && bsb -clean-world"
+  },
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "reasonml",
+    "express"
+  ],
+  "license": "MIT",
+  "author": "Ryan Biwer",
+  "_": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryb73/bs-body-parser.git"
+  },
+  "peerDependencies": {
+    "bs-platform": "^2.0.0"
+  }
+}
