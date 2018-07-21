@@ -63,3 +63,7 @@ node_modules
 lib/
 
 .merlin
+.bsb.lock
+
+# ppl
+package-links.json
