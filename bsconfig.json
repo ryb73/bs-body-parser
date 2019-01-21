@@ -1,5 +1,5 @@
 {
-    "name" : "bs-body-parser",
+    "name" : "@ryb73/bs-body-parser",
     "bs-dependencies": [
         "bs-express",
         "bs-batteries"

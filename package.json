@@ -1,13 +1,14 @@
 {
-  "name": "bs-body-parser",
-  "version": "1.0.0",
+  "name": "@ryb73/bs-body-parser",
+  "version": "0.0.1",
   "description": "BuckleScript bindings for body-parser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run clean && bsb -make-world",
     "watch": "npm run clean && bsb -make-world -w",
-    "clean": "rm -rf lib && bsb -clean-world"
+    "clean": "rm -rf lib && bsb -clean-world",
+    "postinstall": "[ ! -f package-links.json ] || ppl link-file"
   },
   "keywords": [
     "bucklescript",
@@ -23,6 +24,11 @@
     "url": "git@github.com:ryb73/bs-body-parser.git"
   },
   "peerDependencies": {
-    "bs-platform": "^3.1.5"
+    "bs-platform": "^4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bs-batteries": "^0.0.14",
+    "bs-express": "^0.9.0"
   }
 }
