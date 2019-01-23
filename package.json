@@ -1,6 +1,6 @@
 {
   "name": "@ryb73/bs-body-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "BuckleScript bindings for body-parser",
   "main": "index.js",
   "scripts": {
