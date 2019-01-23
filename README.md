@@ -1,2 +1,2 @@
 # bs-body-parser
-BuckleScript bindings for body-parser
+Incomplete BuckleScript bindings for body-parser

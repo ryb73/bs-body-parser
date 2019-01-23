@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "bs-batteries": "^0.0.14",
     "bs-express": "^0.9.0"
   }
 }
