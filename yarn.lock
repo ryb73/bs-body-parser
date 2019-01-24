@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@mopho/bs-express@^0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@mopho/bs-express/-/bs-express-0.10.0.tgz#ebbaf21f87f13afcb7f6e6b683eea8314c4a3351"
+  integrity sha512-FarqDIorYmwnBmnYcsxkfbHxnxQX/7vWrQIslXbfMrobOW9tMfNW6mP5j0dis657APVN6vFyCSPA02+kYspjsA==
+  dependencies:
+    express "^4.16.3"
+
 accepts@~1.3.5:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.5.tgz#eb777df6011723a3b14e8a72c0805c8e86746bd2"
@@ -30,18 +37,6 @@ body-parser@1.18.3, body-parser@^1.18.3:
     qs "6.5.2"
     raw-body "2.3.3"
     type-is "~1.6.16"
-
-bs-batteries@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/bs-batteries/-/bs-batteries-0.0.14.tgz#51536a489615087c05774525c38ab56b4d45df4c"
-  integrity sha1-UVNqSJYVCHwFd0Ulw4q1a01F30w=
-
-bs-express@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/bs-express/-/bs-express-0.9.0.tgz#2429708616c4e66f69707505b06dd035406f091c"
-  integrity sha512-XXsNFKC0rUsMKslHpS0XQ3vJyAWNeurZm1y1cOACIgUJTXhcH3YHFmLx+dw/MPsjoUmgDxqx2n4+Okruv5Nesw==
-  dependencies:
-    express "^4.16.3"
 
 bytes@3.0.0:
   version "3.0.0"

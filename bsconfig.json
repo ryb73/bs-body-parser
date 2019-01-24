@@ -1,7 +1,7 @@
 {
-    "name" : "@ryb73/bs-body-parser",
+    "name" : "@mopho/bs-body-parser",
     "bs-dependencies": [
-        "bs-express",
+        "@mopho/bs-express",
     ],
     "sources" : [
         { "dir" : "src" },
