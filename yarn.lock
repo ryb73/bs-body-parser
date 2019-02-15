@@ -31,15 +31,10 @@ body-parser@1.18.3, body-parser@^1.18.3:
     raw-body "2.3.3"
     type-is "~1.6.16"
 
-bs-batteries@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/bs-batteries/-/bs-batteries-0.0.14.tgz#51536a489615087c05774525c38ab56b4d45df4c"
-  integrity sha1-UVNqSJYVCHwFd0Ulw4q1a01F30w=
-
-bs-express@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/bs-express/-/bs-express-0.9.0.tgz#2429708616c4e66f69707505b06dd035406f091c"
-  integrity sha512-XXsNFKC0rUsMKslHpS0XQ3vJyAWNeurZm1y1cOACIgUJTXhcH3YHFmLx+dw/MPsjoUmgDxqx2n4+Okruv5Nesw==
+bs-express@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/bs-express/-/bs-express-0.10.0.tgz#66e07cdccdaa49abb6af09d3e24399389acfb8f3"
+  integrity sha512-T3pxAiKUpX1F75KGFiYdhcM20YSj/UHoHj8dTXhLMUFpU7RiJKJA1gTgBAl4GC6KgKEWDZ7ycWJAEQRxBRNyiA==
   dependencies:
     express "^4.16.3"
 
