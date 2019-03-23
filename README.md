@@ -1,7 +1,7 @@
 # bs-body-parser
 
 ## What is it?
-Bucklescript bindings for [body-parser](https://www.npmjs.com/package/body-parser).
+Bucklescript bindings for [body-parser](https://www.npmjs.com/package/body-parser), an Express request parsing middleware.
 
 ## What state is it in?
 Very incomplete.
