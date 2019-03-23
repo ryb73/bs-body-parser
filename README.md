@@ -12,7 +12,7 @@ npm i @ryb73/bs-body-parser
 ```
 
 ## How do I use it?
-```reasonml
+```reason
 let app = Express.App.make();
 Express.App.use(app, BodyParser.json());
 /* the parsed body can then be retrieved using Express.Request.asJsonObject */
