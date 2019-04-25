@@ -29,10 +29,10 @@
     "url": "git@github.com:ryb73/bs-body-parser.git"
   },
   "peerDependencies": {
-    "bs-platform": "^4.0.0"
+    "bs-platform": "^5.0.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "bs-express": "^0.11.4"
+    "bs-express": "^0.12.0"
   }
 }
